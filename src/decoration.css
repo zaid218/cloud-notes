@@ -1,0 +1,10 @@
+input,
+textarea {
+  background-color: rgb(208, 235, 204);
+  color: white;
+}
+
+.card-title,
+.card-text {
+  color: white;
+}

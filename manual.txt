@@ -1,0 +1,30 @@
+
+npm run both 
+use mongodb compass version 6.0
+do directConnection=true in mongoapp
+ 
+at video 48 ,problem was setting mongodb and thunderclient ...
+in thunderclient ,buffering timeout problem solution link :https://www.youtube.com/watch?v=JJFP5__G3-Y
+
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "inotebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
+
+do post in thunderclient instead of get ..content-type in header and application/json in value..send request from thundrclient

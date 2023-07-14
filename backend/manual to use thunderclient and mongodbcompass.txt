@@ -1,0 +1,9 @@
+// CLICK ON POST THEN TYPE localhost:5000/api/auth/createuser
+// IN HEADER CONTENT-TYPE AND VALUE APPLICATION..JSON
+//connection string in mongodb compass is mongodb://localhost:27017/test?directConnection=true
+//test is name of database click on reloaddata in view in mongodb compass
+{
+  "name":"000000000000u",
+  "email":"NNNNNNNNN@gmail.com",
+  "password":"uuuuuuuuuu"
+}
